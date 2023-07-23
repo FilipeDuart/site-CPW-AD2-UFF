@@ -1,0 +1,284 @@
+/*
+* Estilo Geral
+*/
+body {
+    color: #99EEEE;
+    font-size: 16px;
+    background-color: #4488AA;
+    font-family: stoke, Lucida Bright, liberation;
+}
+
+/*
+   * Estilo Seções
+   */
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+/*
+   * Estilo Header
+   */
+.ender {
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    line-height: 140%;
+    font-family: karla, verdana, ubuntu;
+}
+
+img.imgLogo {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FFFFFF;
+    margin-bottom: 6px;
+}
+
+/*
+   * Estilo Nav
+   */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #99EEEE;
+    text-decoration: none;
+}
+
+nav ul {
+    color: #FFFFFF;
+    margin-top: 40px;
+    line-height: 230%;
+    font-size: 20px;
+    font-family: karla, verdana, ubuntu;
+    list-style-image: url('../imagens/BrilhoMark.png');
+}
+
+/***************************************
+   * Estilo Seção Apresentação
+   */
+div.apres {
+    text-align: center;
+    font-size: 18px;
+}
+
+/***************************************
+* Estilo Seção Tipos
+*/
+.listaTipos {
+    color: #FFFFFF;
+    line-height: 180%;
+    padding: 10px 10px 10px 50px;
+}
+
+.listaTipos ul {
+    color: #99FFFF;
+    list-style-type: disc;
+}
+
+.tabInfo {
+    color: #000066;
+    margin: 50px;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-family: karla, verdana, ubuntu;
+    margin:0 auto;
+}
+
+.tabInfo td,
+.tabInfo th {
+    border: 2px solid #000055;
+    padding: 6px 12px 6px 12px;
+}
+
+.tabInfo .linTH {
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #004499;
+}
+
+/***************************************
+* Estilo Seção Estoque
+*/
+.tabInfo .colTH {
+    color: #FFFFFF;
+    text-align: left;
+    background-color: #0066DD;
+}
+
+.tabInfo .preco {
+    color: #CC0000;
+}
+
+.botaoJanela{
+    display:block;
+    margin:20 auto;
+
+}
+
+/***************************************
+* Estilo Formulários
+*/
+
+.FormBox {
+    width: 520px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #0066DD;
+    border: 3px solid #000055;
+    font-size: 16px;
+    font-family: karla, verdana, ubuntu;
+}
+
+/*** Fieldsets ***/
+.FSLinInteira {
+    color: white;
+    width: 490px;
+    text-align: left;
+}
+
+.FSColEsq {
+    width: 210px;
+    float: left;
+    text-align: center;
+}
+
+.FSColDir {
+    width: 210px;
+    float: right;
+    text-align: center;
+}
+
+.LinhaForm {
+    margin: 0px;
+    height: 30px;
+    padding: 6px 3px 0px 3px;
+}
+
+.ColEsq {
+    width: 180px;
+    float: left;
+    display: block;
+}
+
+.ColDir {
+    width: 180px;
+    float: right;
+    display: block;
+}
+
+.LabBox {
+    width: 80px;
+    float: left;
+    display: block;
+}
+
+.InpBoxGnd {
+    width: 384px;
+    float: right;
+    display: block;
+}
+
+.InpBoxMed {
+    width: 80px;
+    float: right;
+    display: block;
+}
+
+.numDD {
+    width: 35px;
+}
+
+.numQD {
+    width: 50px;
+}
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+/***************************************
+* Estilo Formulário Cadastro
+*/
+#linhaEnder {
+    height: 50px;
+}
+
+#inpEnder {
+    height: 80%;
+    width: 394px;
+}
+
+/***************************************
+* Estilo Formulário Compras
+*/
+#loginCad {
+    width: 260px;
+}
+
+#idEmail {
+    width: 160px;
+}
+
+#senhaCad {
+    width: 180px;
+}
+
+#lisSelProd {
+    width: 370px;
+}
+
+#selProduto {
+    width: 75%;
+}
+
+#btnIncluir {
+    width: 70px;
+}
+
+#boxPedidos {
+    height: 100px;
+}
+
+#lisPedArea {
+    height: 90%;
+    width: 100%;
+}
+
+#fSBandeira {
+    width: 80px;
+    text-align: left;
+}
+
+#numCartao {
+    width: 350px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+#valCartao {
+    width: 230px;
+    height: 35px;
+}
+
+#boxParcel {
+    width: 230px;
+    height: 30px;
+}

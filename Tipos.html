@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Resfriamento Global</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<link href='https://fonts.googleapis.com/css?family=Karla|Stoke' rel='stylesheet'>
+	<script>
+		function abrirJanelaTipo() {
+        	var myWindow = window.open("", "myWindow", "width=250,height=200");
+			myWindow.document.write('<link rel="stylesheet" type="text/css" href="css/estilo.css" />')
+     		myWindow.document.write("<h3>Tipos de Ar-condicionado</h3><ul><li>de Parede</li><li>Spliter</li><li>Portátil</li></ul>");
+       		myWindow.document.write("<button onclick='window.close()' class='botaoJanela'>Fechar</button>");
+      	}
+
+	  function abrirJanelaCapacidade() {
+    	var novaJanela = window.open("", "novaJanela", "width=500,height=400");
+    	novaJanela.document.write('<link rel="stylesheet" type="text/css" href="css/estilo.css" />');
+    	novaJanela.document.write('<h3>Tamanho do Cômodo</h3><table class="tabInfo"><tr><th rowspan="2" class="linTH">Área</th><th colspan="2" class="linTH">Incidência do Sol</th></tr><tr><th class="linTH">Manhã</th><th class="linTH">Tarde</th></tr><tr><td>9 m2</td><td>7500 BTUs</td><td>9000 BTUs</td></tr><tr><td>12 m2</td><td>9000 BTUs</td><td>10000 BTUs</td></tr><tr><td>25 m2</td><td>12000 BTUs</td><td>15000 BTUs</td></tr><tr><td>50 m2</td><td>21000 BTUs</td><td>30000 BTUs</td></tr></table>');
+    	novaJanela.document.write("<button onclick='window.close()' class='botaoJanela'>Fechar</button>");
+  	   }
+	  </script>
+</head>
+
+<body>
+	<header>
+		<address class="ender">
+			Av. Novaya Zemlya, 1870<br />
+			Cel: (21) 98765-4321<br />
+			<a href="mailto:contato@resfriglob.com.br">
+				contato@resfriglob.com.br</a>
+		</address>
+		<img class="imgLogo" src="Imagens/ResfGlobLogoDeitado.png" /></span>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="RefriGlobal.html">Apresentação</a></li>
+			<li><a href="Tipos.html">Tipos</a></li>
+			<li><a href="Estoque.html">Estoque</a></li>
+			<li><a href="Cadastro.html">Cadastro</a></li>
+			<li><a href="Compras.html">Compras</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h3>Como escolher um ar-condicionado?</h3>
+		<ol class="listaTipos">
+			<li><a href="#" onclick="abrirJanelaTipo()">Tipo</a></li>
+			<br />
+			<li><a href="#" onclick="abrirJanelaCapacidade()">Capacidade</a></li>
+			
+				
+		</ol>
+	</section>
+
+</body>
+
+</html>
